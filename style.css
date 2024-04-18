@@ -1,0 +1,178 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    background:#EDEDE9;
+}
+
+.banner{
+    height: 80vh;
+    background-image: url(img/fondo.png);    
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.opciones{
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}
+
+.opciones li{
+    display: inline-block ;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #171614;
+}
+
+.titulo p{
+    justify-content: center;
+    font-size: 25px;
+    margin-left:-30%;
+}
+
+.contBanner{
+    display: flex;
+    display: inline-block;
+    padding: 30px 50px;
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 40%;
+}
+
+.contBanner h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contBanner p{
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contBoton{
+    display: grid;
+    place-items: center;
+}
+
+.boton{
+    border-radius: 30px;
+    padding: 25px 35px;
+    background: #171614;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 13px;
+    transition:1s all;
+    cursor: pointer;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+}
+
+.enviar{
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.icono{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.division{
+    width: 100%;
+    display: flex; 
+}
+
+.izquierda{
+   padding: 15% 8%;
+   display: inline-block;
+   background: #EDEDE9;
+   width: 35%;
+}
+
+.izquierda h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.izquierda p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+.derecha{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: #EDEDE9;
+    width: 75%;
+}
+
+.form{
+    padding: 8% 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.caja{
+    text-align: justify;
+}
+
+.nombre p{
+    padding-bottom: 15px;
+}
+
+.apellido{
+    padding-top: 30px;
+}
+
+.apellido input{
+    width: 70%;
+}
+
+.correo, .contraseña{
+    grid-column: 1/3;
+}
+
+form label, form legend{ /*formato de los label*/
+    font-size: 16px;
+}
+
+.input{ /*formato de los inputs*/
+    display: block;
+    width: 85%;
+    margin: 3% 0;
+    background:#EDEDE9;
+    border: 1.5px solid #171614 ;
+    border-radius: 20px;
+    font-size: 15px;
+    height: 30px;
+    padding: 10px 10px ;
+}
